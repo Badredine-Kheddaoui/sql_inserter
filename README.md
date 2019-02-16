@@ -9,12 +9,15 @@ in the above example the script will generate five lines of insertions for a tab
 -an Id of type number<br/>
 -a name of type varchar<br/>
 -an adresse of type varchar<br/>
-`INSERT INTO client(Id, Name, adresse) VALUES(7705, 'disastrous', 'dubois');
+` INSERT INTO client(Id, Name, adresse) VALUES(7705, 'disastrous', 'dubois');
 
-INSERT INTO client(Id, Name, adresse) VALUES(9875, 'adjustment', 'sartre');<br/>
-INSERT INTO client(Id, Name, adresse) VALUES(7046, 'bury', 'mullins');<br/>
-INSERT INTO client(Id, Name, adresse) VALUES(4560, 'grateful', 'fabian');<br/>
-INSERT INTO client(Id, Name, adresse) VALUES(3364, 'wrathful', 'bonhomme');`
+  INSERT INTO client(Id, Name, adresse) VALUES(9875, 'adjustment', 'sartre');
+
+  INSERT INTO client(Id, Name, adresse) VALUES(7046, 'bury', 'mullins');
+
+  INSERT INTO client(Id, Name, adresse) VALUES(4560, 'grateful', 'fabian');
+
+  INSERT INTO client(Id, Name, adresse) VALUES(3364, 'wrathful', 'bonhomme');`
 
 for the Id column the script will generate random numbers between 1236 and 9932 
 for the name column the script will generate random words from the file randomWords.txt
