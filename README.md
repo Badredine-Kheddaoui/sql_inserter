@@ -2,6 +2,12 @@
 This is a python script that generates random or custom insertions 
 based on a provided wordlist to test your database.
 
+
+
+
+
+
+
 Example of how to use it:
 
 `python inserter.py client 5 Id,number Name,varchar adresse,varchar,adresses.txt`
