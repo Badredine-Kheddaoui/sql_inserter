@@ -3,7 +3,8 @@ This is a python script that generates random or custom insertions
 based on a provided wordlist to test your database.
 <br/><br/><br/>
 Example of how to use it:
-`python inserter.py client 5 Id,number Name,varchar adresse,varchar,frenchNames.txt`
+      
+    python inserter.py client 5 Id,number Name,varchar adresse,varchar,frenchNames.txt
 
 in the above example the script will generate five lines of insertions for a table named 'client' that has three columns: <br>
 -an Id of type number<br/>
@@ -22,7 +23,8 @@ for the adresse column the script will generate random lines from the file adres
 
 Syntax:
 <br/>
-`inserter.py [-h] table_name number_of_rows column_name1[,column_data_type1,column_wordlist1] [column_name2,[column_data_type2,column_wordlist2]]`
+
+    inserter.py [-h] table_name number_of_rows column_name1[,column_data_type1,column_wordlist1] [column_name2,[column_data_type2,column_wordlist2]]
 
 Datatypes:
 <br/>
