@@ -9,6 +9,7 @@ in the above example the script will generate five lines of insertions for a tab
 -an Id of type number<br/>
 -a name of type varchar<br/>
 -an adresse of type varchar<br/>
+
     INSERT INTO client(Id, Name, adresse) VALUES(7705, 'disastrous', 'dubois');
     INSERT INTO client(Id, Name, adresse) VALUES(9875, 'adjustment', 'sartre');
     INSERT INTO client(Id, Name, adresse) VALUES(7046, 'bury', 'mullins');
