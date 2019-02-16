@@ -6,13 +6,13 @@ Example of how to use it:
 `python inserter.py client 5 Id,number Name,varchar adresse,varchar,frenchNames.txt`
 
 in the above example the script will generate five lines of insertions for a table named 'client' that has three columns: <br>
--an Id of type number<br>
--a name of type varchar<br>
--an adresse of type varchar
-`INSERT INTO client(Id, Name, adresse) VALUES(7705, 'disastrous', 'dubois');
-INSERT INTO client(Id, Name, adresse) VALUES(9875, 'adjustment', 'sartre');
-INSERT INTO client(Id, Name, adresse) VALUES(7046, 'bury', 'mullins');
-INSERT INTO client(Id, Name, adresse) VALUES(4560, 'grateful', 'fabian');
+-an Id of type number<br/>
+-a name of type varchar<br/>
+-an adresse of type varchar<br/>
+`INSERT INTO client(Id, Name, adresse) VALUES(7705, 'disastrous', 'dubois');<br/>
+INSERT INTO client(Id, Name, adresse) VALUES(9875, 'adjustment', 'sartre');<br/>
+INSERT INTO client(Id, Name, adresse) VALUES(7046, 'bury', 'mullins');<br/>
+INSERT INTO client(Id, Name, adresse) VALUES(4560, 'grateful', 'fabian');<br/>
 INSERT INTO client(Id, Name, adresse) VALUES(3364, 'wrathful', 'bonhomme');`
 
 for the Id column the script will generate random numbers between 1236 and 9932 
